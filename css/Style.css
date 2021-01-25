@@ -1,0 +1,88 @@
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1px 0;
+  }
+  .container {
+
+    width: 50%;
+    margin: auto;
+    /* background-color: darkseagreen; */
+    padding: 1em;
+  }
+  .table {
+      border-radius: 15px 50px;
+      width: 50%;
+      height: auto;
+      margin: 0 0 1px 0;
+  }
+  h3 {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .city h4 {
+    text-align: center;
+    font-size: 28px;
+    vertical-align: top;
+    }
+  #cityimage {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 10px;
+    }
+
+  .size .col-4 img {
+      position: relative;
+      top: 35px;
+      }
+  .city p {
+      position: relative;
+      text-align: justify;
+      font-size: 14px;
+      }
+
+    table {
+      width: 90%;
+    }
+   table, th {
+     border: 1px solid black;
+     border-collapse: collapse;
+     border: 1px dotted black;
+     padding: 3px;
+     text-align: center;
+    }
+  td {
+      font-size: 18px;
+      text-align: center;
+      padding: 3px;
+    }
+  th {
+      font-size: 120%;
+    }
+  th, td {
+      border-bottom: 1px solid #ddd;
+    }
+  .center {
+    text-align: center;
+    }
+  .para{
+      text-align: justify;
+      display: block;
+
+    }
+  .sites img {
+      float: left;
+      overflow: hidden;
+      width: 300px;
+      height: 200px;
+      padding-right: 10px;
+      }
+  .col-8 {
+      overflow: hidden;
+      }
+      /*---one below, two col---*/
