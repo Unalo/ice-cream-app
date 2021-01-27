@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siya's Ice Cream</title>
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/Style.css">
+
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/simple-grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
@@ -20,17 +22,110 @@
             <div class="col-8">
                 <h4> Welcome to Siya's Ice Cream
                 </h4>
+                <div> 
+                 <p class="total">R</p>   <span class="total" ></span>
+                </div>
             </div>
             <div class="col-2"></div>
         </div>
-        <div class="row">
-            <div class="col-">
 
+        <div class="ice-cream">
+            <div class="row">
+                <ul class="col-6 cone ">
+                    <h6> How do you like your cone?</h6>
+                    <p>
+                        <label>
+                            <input data-price="6.00" class="with-gap" name="group1" type="radio" />
+                            <span >Plain Cone</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input data-price="6.50" type="radio" class="with-gap" name="group1" />
+                            <span > Sugar Cone.
+                            </span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input data-price="4.50" type="radio" class="with-gap" name="group1" />
+                            <span > paper Cup.
+                            </span>
+                        </label>
+                    </p>
+                </ul>
+                <ul class="col-6 flavour">
+                    <h6> Please choose your favorate flavour</h6>
+                    <p>
+                        <label>
+                            <input data-price="10.00" type="radio" class="with-gap" name="group1" />
+                            <span > Vanilla
+                            </span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input data-price="9.00" type="radio" class="with-gap" name="group1" />
+                            <span > Chocolate
+                            </span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input data-price="12.50" type="radio" class="with-gap" name="group1" />
+                            <span > Strawberry
+                            </span>
+                        </label>
+                    </p>
+                </ul>
+            </div>
+            <div class="row">
+                <!-- <div class="col-1"></div> -->
+                <div >
+                    <h6 > Please choose your Topping</h6>
+                       <ul class="col-12 topping">
+                        <label>
+                            <input data-price="7.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Crumbed peanuts
+                            </span>
+                        </label>
+                    
+                        <label>
+                            <input data-price="5.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Caramel dip
+                            </span>
+                        </label>
+                    
+                        <label>
+                            <input data-price="9.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Chocolate dip
+                            </span>
+                        </label>
+                   
+                        <label>
+                            <input data-price="10.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Smarties
+                            </span>
+                        </label>
+                   
+                        <label>
+                            <input data-price="8.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Oreos
+                            </span>
+                        </label>
+                   
+                        <label>
+                            <input data-price="8.50" type="checkbox" class="with-gap topping" name="group1" />
+                            <span > Astros
+                            </span>
+                        </label>
+                       </ul>
+                </div>
+                <!-- <div class="col-1"></div> -->
             </div>
         </div>
     </div>
     <script src="./js/ice-factory.js"></script>
-
 </body>
 
 </html>
