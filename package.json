@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Unalo/ice-cream-app#readme",
   "dependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.19.0"
   }
 }

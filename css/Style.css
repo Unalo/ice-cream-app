@@ -7,10 +7,18 @@ h3 {
   left: 30px;
   font-size: 30px;
 }
+.special {
+  display: inline-block;
+  color: red;
+}
+.current {
+  color: green;
+}
 
-.total {
+.total, .display {
   font-size: medium;
   text-align: center;
+  color: darkgreen;
 }
 
 .topping {
